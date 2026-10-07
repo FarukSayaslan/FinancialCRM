@@ -1,0 +1,22 @@
+{
+  "anthropic": {
+    "apiKey": "AQ.Ab8RN6JUJMFkG28z0pvd54c83lT60_NWGOXJGp-jqS3vt_fthw",
+    "model": "claude-3-5-sonnet-20241022",
+    "maxTokens": 1024,
+    "baseUrl": "https://api.anthropic.com/v1"
+  },
+  "database": {
+    "connectionString": "Data Source=FARUKSAYASLAN\\SQLEXPRESS;Initial Catalog=urun;Integrated Security=True",
+    "provider": "SqlServer"
+  },
+  "app": {
+    "appName": "Financial CRM - Kredi Skorlama Projesi",
+    "version": "1.0.0",
+    "environment": "Development"
+  },
+  "features": {
+    "enableAI": true,
+    "enableLocalFallback": true,
+    "enableDataLogging": true
+  }
+}
